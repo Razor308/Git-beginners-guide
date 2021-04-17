@@ -16,6 +16,7 @@ A few interfaces that come to mind are:
 * GitLab
 * Gitea
 * Command-Line
+
 This guide will only focus on 2 interfaces:
 * GitHub
 * Command-Line
@@ -25,17 +26,22 @@ This guide will only focus on 2 interfaces:
 ### Basic Command-Line Knowledge
 
 **For Mac Users:**
+
 Click the magnifying glass in the top-right of your screen and type ```terminal```.
+
 Click on ```Terminal.app```.
+
 This will bring up your terminal.
 
 **For Windows Users \(like me\):**
+
 While you *can* use your ```cmd``` or ```Powershell``` applications, you should avoid using them like the plague.
-This is because some commands differ between Windows and Mac.  Mac OS behaves more like Linux,a separate operationg system from Windows and Mac.
+This is because some commands differ between Windows and Mac.  Mac OS behaves more like Linux, a separate operationg system from Windows and Mac.
+
 Believe me when I say, you want a more Linux-like experience.
 In order to get that, there are several options to choose from.
-But I will only recommned 2 to keep it simple.
-* [git for windows](https://gitforwindows.org/) **Easier to install**
+I will only recommned 2 to keep it simple.
+* [git for windows](https://gitforwindows.org/) **Easier to install/set up**
 * [Cygwin](https://www.cygwin.com/) **More complex; many things to configure when installing**
 
 In order to be efficient with Git, you need to get used to using the command line.
