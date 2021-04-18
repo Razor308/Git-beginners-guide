@@ -82,6 +82,8 @@ I'll walk you through an example of the commands mentioned above.
 We're going to navigate to the directory containing this file, the one you're currently reading, on the command-line.
 
 Where we're going is shown below in the Windows File Explorer.
+
+<img src="images/goal.png">
  
 Let's start by opening Git Bash.
  
