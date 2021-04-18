@@ -197,7 +197,7 @@ If you don't already have a GitHub account, go to [github.com](https://github.co
 
 After you've made you account or signed in, you should see this page:
 
-
+<img src="images/github-home.png" width="1000">
 
 Click the ```+``` icon in the top-right corner of the screen and select ```New Repository```.
 The one thing you *must* do here is check the box that says ```Add a README file```.
@@ -206,7 +206,7 @@ The one thing you *must* do here is check the box that says ```Add a README file
 
 Aftet you've created your repository, your screen should look like this:
 
-
+<img src="images/test-repo.png" width="1000">
 
 Remember the green ```Code``` button for later.
 
