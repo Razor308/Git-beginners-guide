@@ -159,8 +159,8 @@ Here are the editors I have experience with and would recommned, with screenshot
 * Vim
   * **Warning! Steep Learning curve!** While Vim is very powerful, I would recommned avoiding it for now, but learning it eventually.
   * This editor is accessed at the command line with the ```vim``` command.
-  * Type the name of the file after ```vim``` for the file that you want to make or edit.  Example: ```vim test.txt```.
   * If you're using it for the first time, type ```vimtutor``` into your terminal and press Enter to get a tutorial.
+  * Type the name of the file after ```vim``` for the file that you want to make or edit.  Example: ```vim test.txt```.
   * Below is a screenshot of this file opened in Vim.
   
 <img src="images/vim.png">
@@ -188,6 +188,31 @@ Here are the editors I have experience with and would recommned, with screenshot
 <img src="images/vs-code.png">
  
 ## Starting With GitHub
+
+### Make an Account
+
+If you don't already have a GitHub account, go to [github.com](https://github.com/) and make one.
+
+### Making a Repository
+
+After you've made you account or signed in, you should see this page:
+
+<img src="github-home.png">
+
+Click the ```+``` icon in the top-right corner of the screen and select ```New Repository```.
+The one thing you *must* do here is check the box that says ```Add a README file```.
+
+**Always have a README file in your repository!**
+
+Aftet you've created your repository, your screen should look like this:
+
+<img src="test-repo.png">
+
+Remember the green ```Code``` button for later.
+
+### Cloning a Repository
+
+
 
 ## Making Changes
 
