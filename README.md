@@ -135,7 +135,7 @@ The result of both commands:
  
 Hey, there it is!  "README.md"!  That's the name of this file!  We did it!
  
-### Main Takeaways
+#### Main Takeaways
 
 * If you know where you're going, **you can do the entire example above with just 1 command!**
   * That command is ```cd Documents/EN307/Git-beginners-guide/```
