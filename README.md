@@ -189,7 +189,7 @@ Here are the editors I have experience with and would recommned, with screenshot
  
 ## Starting With GitHub
 
-### Make an Account
+### Making an Account
 
 If you don't already have a GitHub account, go to [github.com](https://github.com/) and make one.
 
