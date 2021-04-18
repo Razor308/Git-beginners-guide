@@ -1,5 +1,9 @@
 # Git-beginners-guide
 
+## Note: Click the icon circled in red to access the table of contents.
+
+<img src="images/readme.png">
+
 ## Introduction
 
 ## What is Git?
@@ -54,7 +58,7 @@ Commands are executed by typing them in the terminal and pressing the Enter key.
 
 Basic commands not exclusive to Git include the following:
 * ```pwd```
-  * This is the "print work directory" command.  It tells you where you are in your file system.
+  * This is the "print work directory" command.  It tells you where you are in your file system/prints your current directory.
 * ```ls```
   * This is the "list" command.
   * It lists all the files and directories in your current directory.
@@ -68,7 +72,7 @@ Basic commands not exclusive to Git include the following:
 * ```clear```
   * This command clears your terminal.
   
-There are a few more, like ```cp``` \(copy\), ```mv``` \(move\) and ```rm``` \(remove\), but you should wait to learn those untill you've gotten used to the previous 5 commands.
+There are a few more, like ```cp``` \(copy\), ```mv``` \(move\) and ```rm``` \(remove\), but you should wait to learn those until you've gotten used to the previous 5 commands.
  
 ### Example Walkthrough
 I'll walk you through an example of the commands mentioned above.
@@ -77,7 +81,7 @@ We're going to navigate to the directory containing this file, the one you're cu
  
 Let's start by opening Git Bash.
  
-**Note: Your terminal will always open to the same directory**
+**Note: Your terminal will always open to the same directory, your home directory.**
  
 <img src="images/bash-blank.png">
  
