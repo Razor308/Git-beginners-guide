@@ -83,7 +83,7 @@ We're going to navigate to the directory containing this file, the one you're cu
 
 Where we're going is shown below in the Windows File Explorer.
 
-<img src="images/goal.png" width="500">
+<img src="images/goal.png" width="1000">
  
 Let's start by opening Git Bash.
  
