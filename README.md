@@ -41,7 +41,7 @@ This is because some commands differ between Windows and Mac.  Mac OS behaves mo
 Believe me when I say, you want a more Linux-like experience.
 In order to get that, there are several options to choose from.
 I will only recommned 2 to keep it simple.
-* [git for windows/Git Bash](https://gitforwindows.org/) **Pick this one!**
+* [git for windows/Git Bash](https://gitforwindows.org/) - **Pick this one!**
   * Will be used in this guide.
   * Easier to install/set up.
 * [Cygwin](https://www.cygwin.com/) 
@@ -49,6 +49,8 @@ I will only recommned 2 to keep it simple.
   * Many things to configure when installing.
 
 In order to be efficient with Git, you need to get used to using the command line.
+
+Commands are executed by typing them in the terminal and pressing the Enter key.
 
 Basic commands not exclusive to Git include the following:
 * ```pwd```
@@ -59,19 +61,83 @@ Basic commands not exclusive to Git include the following:
 * ```cd```
   * This is the "change directory" command.  A directory is the same thing as a folder.
   * You'll use it whenever you want to go to a certian directory.
-  * **Special note 1: Use Tab!** For example, typing ```cd Docu``` and then pressing your ```Tab``` key will autocomplete the word "Documents".
-  * **Special note 2: Whatever you try to autocomplete with tab must already exist!  The directory you're trying to change to must also already exist.**
+  * **Special note 1: Use Tab!** For example, typing ```cd Docu``` and then pressing your Tab key will autocomplete the word "Documents".
+  * **Special note 2: Whatever you try to autocomplete with Tab must already exist!  The directory you're trying to change to must also already exist.**
 * ```mkdir```
   * This is the "make directory" command.  It makes a new directory in your current directory.
+* ```clear```
+  * This command clears your terminal.
   
- There are a few more, like ```cp``` \(copy\), ```mv``` \(move\) and ```rm``` \(remove\), but you should wait to learn those untill you've gotten used to the previous 4 commands.
+There are a few more, like ```cp``` \(copy\), ```mv``` \(move\) and ```rm``` \(remove\), but you should wait to learn those untill you've gotten used to the previous 5 commands.
  
- ### Example of Basic Commands
- I'll walk you through an example of the commands mentioned above.
+### Example Walkthrough
+I'll walk you through an example of the commands mentioned above.
  
- Let's start by opening Git Bash.
+We're going to navigate to the directory containing this file, the one you're currently reading, on the command-line.
  
- <img src="images/bash-blank.png">
+Let's start by opening Git Bash.
+ 
+**Note: Your terminal will always open to the same directory**
+ 
+<img src="images/bash-blank.png">
+ 
+Where are we?  Let's find out using ```pwd```
+ 
+<img src="images/bash-directory.png">
+ 
+Well, it spits out ```/c/Users/Bartel```, and I'm still not sure where we are...
+ 
+So let's try ```ls```
+ 
+<img src="images/bash-list.png">
+ 
+Note that anything with a ```/``` on the end is a directory.
+ 
+Hey, I recognize "Documents/"! Let's go there!
+ 
+```cd Documents/``` **Note: I typed ```cd Docu``` and pressed Tab to autocomplete "Documents/"**
+ 
+<img src="images/bash-documents.png">
+ 
+So what's here?  Let's do ```ls``` again.
+ 
+For anonymity purposes, I'm going to use a variation of the ```ls``` command to list only directories here.
+ 
+```ls -l | grep ^d``` produces what you see below.
+ 
+<img src="images/bash-documents-list.png">
+ 
+The ```d``` at the beginning of each line means "directory".  Remember that a ```/``` at the very end of each line also denotes a directory.
+Dont' worry too much about what's in between right now.  Only focus on the final column with the directory names.
+ 
+I know this file is in "EN307/", so let's to go there.
+But before I do, I feel like my terminal is a bit crowded, so I'm going to type ```clear``` and press Enter to clear my terminal.
+
+I'm going to do both ```cd EN307/``` and ```ls -l | grep ^d``` before this next screenshot.
+ 
+**Note: You can use the up arrow on your arrow keys to cycle through past commands so you don't have to retype them.**
+
+<img src="images/bash-en-list.png">
+ 
+Only 1 directory this time!  Let's go there and do an ```ls```!
+ 
+```cd Git-beginners-guide/```
+ 
+```ls```
+ 
+The result of both commands:
+ 
+<img src="images/bash-git-beginners-guide.png">
+ 
+Hey, there it is!  "README.md"!  That's the name of this file!  We did it!
+ 
+### Main Takeaways
+
+* If you know where you're going, **you can do the entire example above with just 1 command!**
+  * That command is ```cd Documents/EN307/Git-beginners-guide/```
+* If you get lost, back up or go home!
+  * You can use ```cd ..``` to back up 1 directory, ```cd ../..``` to back up 2 directories, etc.
+  * You can also use ```cd ~``` to go to your home directory.  Your home directory is the directory that your terminal will always open to.  ```~``` denotes your home directory, or in my case, ```/c/Users/Bartel```.
  
 ## Starting With GitHub
 
