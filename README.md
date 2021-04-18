@@ -83,7 +83,7 @@ We're going to navigate to the directory containing this file, the one you're cu
 
 Where we're going is shown below in the Windows File Explorer.
 
-<img src="images/file-explorer.png>
+<img src="images/file-explorer.png">
  
 Let's start by opening Git Bash.
  
