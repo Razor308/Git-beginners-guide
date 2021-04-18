@@ -67,10 +67,12 @@ Basic commands not exclusive to Git include the following:
 * ```cd```
   * This is the "change directory" command.  A directory is the same thing as a folder.
   * You'll use it whenever you want to go to a certian directory.
+  * If you want to go to your "Documents" directory: ```cd Documents/```.
   * **Special note 1: Use Tab!** For example, typing ```cd Docu``` and then pressing your Tab key will autocomplete the word "Documents".
   * **Special note 2:** Whatever you try to autocomplete with Tab must already exist!  The directory you're trying to change to must also already exist.
 * ```mkdir```
   * This is the "make directory" command.  It makes a new directory in your current directory.
+  * If you want to make a new directory called "images": ```mkdir images```.
 * ```clear```
   * This command clears your terminal.
   
@@ -148,6 +150,42 @@ Hey, there it is!  "README.md"!  That's the name of this file!  We did it!
 * If you get lost, back up or go home!
   * You can use ```cd ..``` to back up 1 directory, ```cd ../..``` to back up 2 directories, etc.
   * You can also use ```cd ~``` to go to your home directory.  Your home directory is the directory that your terminal will always open to.  ```~``` denotes your home directory, or in my case, ```/c/Users/Bartel```.
+  
+### Text Editors
+
+Using a text editor is the easiest way to make any file you want.
+
+Here are the editors I have experience with and would recommned, with screenshots of their interfaces:
+* Vim
+  * **Warning! Steep Learning curve!** While Vim is very powerful, I would recommned avoiding it for now, but learning it eventually.
+  * This editor is accessed at the command line with the ```vim``` command.
+  * Type the name of the file after ```vim``` for the file that you want to make or edit.  Example: ```vim test.txt```.
+  * If you're using it for the first time, type ```vimtutor``` into your terminal and press Enter to get a tutorial.
+  * Below is a screenshot of this file opened in Vim.
+  
+<img src="images/vim.png">
+
+* [Sublime Text](https://www.sublimetext.com/)
+  * A very nice text editor with little-to-no learning curve.
+  * Available on Mac and Windows.
+  * Below is a screenshot of this file opened in Sublime Text.
+  
+<img src="images/sublime-text.png">
+
+* [Notepad++](https://notepad-plus-plus.org/)
+  * A very nice text editor with little-to-no learning curve.
+  * **Only available for Windows!**
+  * Below is a screenshot of this file opened in Notepad++.
+  
+<img src="images/notepadpp.png">
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * A robust editor with a small-to-medium learning curve.
+  * You can integrate your terminal!
+  * Available for Mac and Windows.
+  * Below is a screenshot of this file opened in Visual Studio Code.
+  
+<img src="images/vs-code.png">
  
 ## Starting With GitHub
 
