@@ -29,6 +29,8 @@ This guide will only focus on 2 interfaces:
 
 ### Basic Command-Line Knowledge
 
+The command-line is just a text version of what you see in the file explorer.  Commands are just you telling the interface what you want to see or where you want to go.
+
 **For Mac Users:**
 
 Click the magnifying glass in the top-right of your screen and type ```terminal```.
@@ -66,7 +68,7 @@ Basic commands not exclusive to Git include the following:
   * This is the "change directory" command.  A directory is the same thing as a folder.
   * You'll use it whenever you want to go to a certian directory.
   * **Special note 1: Use Tab!** For example, typing ```cd Docu``` and then pressing your Tab key will autocomplete the word "Documents".
-  * **Special note 2: Whatever you try to autocomplete with Tab must already exist!  The directory you're trying to change to must also already exist.**
+  * **Special note 2:** Whatever you try to autocomplete with Tab must already exist!  The directory you're trying to change to must also already exist.
 * ```mkdir```
   * This is the "make directory" command.  It makes a new directory in your current directory.
 * ```clear```
@@ -78,6 +80,10 @@ There are a few more, like ```cp``` \(copy\), ```mv``` \(move\) and ```rm``` \(r
 I'll walk you through an example of the commands mentioned above.
  
 We're going to navigate to the directory containing this file, the one you're currently reading, on the command-line.
+
+Where we're going is shown below in the Windows File Explorer.
+
+<img src="images/file-explorer.png>
  
 Let's start by opening Git Bash.
  
@@ -135,7 +141,7 @@ The result of both commands:
  
 Hey, there it is!  "README.md"!  That's the name of this file!  We did it!
  
-#### Main Takeaways
+### Main Takeaways
 
 * If you know where you're going, **you can do the entire example above with just 1 command!**
   * That command is ```cd Documents/EN307/Git-beginners-guide/```
