@@ -221,11 +221,11 @@ After you've created your repository, your screen should look like this:
 
 <img src="images/test-repo.png" width="1000">
 
-Remember the green ```Code``` button for later.
+Make note of the green ```Code``` button for later.
 
 ### Cloning a Repository
 
-Before you clone your repository, you should genereate a pair of SSH keys.
+Before you clone your repository, you should generate a pair of SSH keys.
 
 GitHub has an excellent [SSH key guide](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
