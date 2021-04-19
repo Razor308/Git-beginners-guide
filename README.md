@@ -1,10 +1,12 @@
-# Git-beginners-guide
+# Git Beginner's Guide
 
 ## Note: Click the icon circled in red to access the table of contents.
 
 <img src="images/readme.png">
 
 ## Introduction
+
+Hi!  Welcome to my Git Beginner's Guide!  I'm going to assume you have absolutely no experience with Git or the command line.  Let's get started!
 
 ## What is Git?
 Git is a version control platform.  The main benefit of using Git is to track changes to a repository.
@@ -212,10 +214,135 @@ Remember the green ```Code``` button for later.
 
 ### Cloning a Repository
 
+Before you clone your repository, you should genereate a pair of SSH keys.
 
+GitHub has an excellent [SSH key guide](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
+When you get to step 3 of "Generating a new SSH key", just use the default file name.  When you get to step 4 of "Generating a new SSH key", **use a passphrase**.
+
+Once you have your SSH key set up and added to your GitHub account, go back to your repository and click the green ```Code``` button.
+
+Be sure to select ```SSH``` like I did below, and click the clipboard icon to copy the URL to your clipboard.
+
+<img src="images/clone.png" width="1000">
+
+Go back to Git Bash and ```cd``` into whatever directory you want to clone your repository into.
+
+Then type ```git clone``` and paste your copied URL after ```clone```.
+
+Example ```git clone git@github.com:Razor308/Test-Repo.git```
+
+You should be prompted for your key passphrase, but then you're ready to make changes!
 
 ## Making Changes
 
+Open your terminal or Git Bash and ```cd``` into you newly cloned repository. 
+
+Open your text editor of choice and make a new file called ```test.txt```.  Put any text you want in the file and save it.
+
+### Pushing Your Changes
+
+In order to push \(upload\) your changes to your remote repository, you need to learn some ```git``` commands:
+
+* ```git status```
+  * Tells you if your local repository is ahead or behind your remote repository.
+  * Shows you tracked, untracked, and modified files.
+* ```git add```
+  * Tracks files and changes made to them.
+* ```git commit```
+  * Commits tracked changes to your local repository.
+* ```git push```
+  * Pushes your committed changes to your remote repository.
+  
+### Example
+
+Assuming you made ```test.txt``` and put some sample-text inside of it, we're going to push ```test.txt``` to the remote repository.
+
+Starting with ```git status``` shows that ```test.txt``` is untracked and has to be added.
+
+<img src="status.png">
+
+Let's add the file with ```git add test.txt```
+
+And check the status again ```git status```.
+
+<img src="images/ready.png">
+
+```test.txt``` is ready to be committed!
+
+Let's commit the change with ```git commit -m "Add test.txt"```
+
+**Note: Always write a meaningful commit message!**
+
+Now time to push our changes with ```git push origin main```
+
+**You should be prompted for your key passphrase here.**
+
+Now go to your repository on GitHub and refresh the page.  You should see you new file.
+
+<img src="updated-remote.png" width="1000">
+
+Try clicking on it!  You should see what you wrote.
+
+Congradulations!  You know how to use Git and GitHub!
+
 ## Other Things
 
+### Branches
+
+You can make multiple brances of a repository using ```git branch```.
+
+Just ```cd``` into your local repository and execute the ```git branch``` command.
+
+For example:  I would ```cd``` into my repository and type ```git branch test-branch```
+
+**Make sure you switch to your new branch!**
+
+You can switch between branches using ```git checkout```.  
+So I would switch to my new test branch using ```git checkout test-branch```.  
+I would replace ```test-branch``` with ```main``` if I wanted to switch back to my main branch.
+
+**Files can differ between branches!**
+
+I can have files that are in my ```main``` branch that are not in my ```test-branch```, and vice versa.
+
+You can merge branches, but that is outside the scope of this guide.
+
+### Forks
+
+You can fork a copy of a repository from someone else's repository.
+
+For example, below is a screenshot of my professor's class repository that he had all his students fork using the ```Fork``` button circled in red.
+
+We do assignments in our forked copies, and make pull requests in his repo to submit our assignments.
+
+Unless you take his class, you probably won't need to make pull requests to the repository you forked from.
+
+<img src="images/fork.png" width="1000">
+
+This is my forked copy of the repository
+
+<img src="images/forked-behind.png" width="1000">
+
+Oh, looks like my copy is behind the professor's.  See where it says "This branch is 1 commit behind phonedude:main."?
+
+I can fix that with a few commands:
+
+* ```git remote add upstream https://github.com/phonedude/cs595-s21.git```
+  * I only had to do this command once, the first time I wanted to sync my copy with the professor's.
+These next 3 commands are all I need to do now:
+* ```git fetch upstream```
+* ```git merge upstream/main```
+* ```git push origin main```
+
+There we go.
+
+<img src="images/forked-synced.png" width="1000">
+
 ## Markdown
+
+Every README file is written in Markdown, hence the ```.md``` in ```README.md```.
+
+Markdown is pretty easy to learn.  You can mostly type normally.
+
+But for everyting else like headings, bold, italics, images, and tables, check out [GitHub's Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
