@@ -226,9 +226,7 @@ Make note of the green ```Code``` button for later.
 ### Cloning a Repository
 
 Before you clone your repository, you should generate a pair of SSH keys.
-
 GitHub has an excellent [SSH key guide](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
-
 When you get to step 3 of "Generating a new SSH key", just use the default file name.  When you get to step 4 of "Generating a new SSH key", **use a passphrase**.
 
 Once you have your SSH key set up and added to your GitHub account, go back to your repository and click the green ```Code``` button.
