@@ -293,13 +293,13 @@ Now go to your repository on GitHub and refresh the page.  You should see you ne
 
 Try clicking on it!  You should see what you wrote.
 
-Congradulations!  You know how to use Git and GitHub!
+Congratulations!  You know how to use Git and GitHub!
 
 ## Other Things
 
 ### Branches
 
-You can make multiple brances of a repository using ```git branch```.
+You can make multiple branches of a repository using ```git branch```.
 
 Just ```cd``` into your local repository and execute the ```git branch``` command.
 
