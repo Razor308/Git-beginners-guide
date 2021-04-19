@@ -295,59 +295,6 @@ Try clicking on it!  You should see what you wrote.
 
 Congratulations!  You know how to use Git and GitHub!
 
-## Other Things
-
-### Branches
-
-You can make multiple branches of a repository using ```git branch```.
-
-Just ```cd``` into your local repository and execute the ```git branch``` command.
-
-For example:  I would ```cd``` into my repository and type ```git branch test-branch``` to make a branch called ```test-branch```.
-
-**Make sure you switch to your new branch!**
-
-You can switch between branches using ```git checkout```.  
-So I would switch to my new test branch using ```git checkout test-branch```.  
-I would replace ```test-branch``` with ```main``` if I wanted to switch back to my main branch.
-
-**Files can differ between branches!**
-
-I can have files that are in my ```main``` branch that are not in my ```test-branch```, and vice versa.
-
-You can merge branches, but that is outside the scope of this guide.
-
-### Forks
-
-You can fork a copy of a repository from someone else's repository.
-
-For example, below is a screenshot of my professor's class repository that he had all his students fork using the ```Fork``` button circled in red.
-
-We do assignments in our forked copies, and make pull requests in his repository to submit our assignments.
-
-Unless you take his class, you probably won't need to make pull requests.
-
-<img src="images/fork.png" width="1000">
-
-This is my forked copy of the repository
-
-<img src="images/forked-behind.png" width="1000">
-
-Oh, looks like my copy is behind the professor's.  See where it says "This branch is 1 commit behind phonedude:main."?
-
-I can fix that with a few commands:
-
-* ```git remote add upstream https://github.com/phonedude/cs595-s21.git```
-  * I only had to do this command once, the first time I wanted to sync my copy with the professor's.
-These next 3 commands are all I need to do now.
-* ```git fetch upstream```
-* ```git merge upstream/main```
-* ```git push origin main```
-
-There we go.
-
-<img src="images/forked-synced.png" width="1000">
-
 ## Markdown
 
 Every README file is written in Markdown, hence the ```.md``` in ```README.md```.
@@ -355,3 +302,9 @@ Every README file is written in Markdown, hence the ```.md``` in ```README.md```
 Markdown is pretty easy to learn.  You can mostly type normally.
 
 But for everyting else like headings, bold, italics, images, and tables, check out [GitHub's Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
+
+## Other Things
+
+You can do many other things with Git and GitHub, such as making branches and forking repositories.  Since this is a beginner's guide, that information can be learned at a later time.
+
+I hope you enjoyed my Git Beginner's Guide!
