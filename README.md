@@ -170,8 +170,7 @@ Hey, there it is!  "README.md"!  That's the name of this file!  We did it!
 ### Text Editors
 
 Using a text editor is the easiest way to make any file you want.
-
-Here are the editors I have experience with and would recommned, with screenshots of their interfaces:
+Here are the editors I have experience with and would recommend, with screenshots of their interfaces:
 * Vim
   * **Warning! Steep Learning curve!** While Vim is very powerful, I would recommned avoiding it for now, but learning it eventually.
   * This editor is accessed at the command line with the ```vim``` command.
