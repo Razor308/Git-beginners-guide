@@ -41,6 +41,22 @@ Click on ```Terminal.app```.
 
 This will bring up your terminal.
 
+**Mac users must update their version of Git!**
+
+While Git comes pre-installed on Macs, it's most likely out-of-date.
+
+To do this, paste this command into your terminal and press Enter: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+This will install Homebrew.
+
+Now update Homebrew by typing ```brew update``` and press Enter.
+
+Then type ```brew install git```.
+
+Check to make sure you have an up-to-date version of Git by typing ```git --version``` and pressing Enter.
+
+The latest Git version at the time of writing is 2.31.1.
+
 **For Windows Users \(like me\):**
 
 While you *can* use your ```cmd``` or ```Powershell``` applications, you should avoid using them like the plague.
