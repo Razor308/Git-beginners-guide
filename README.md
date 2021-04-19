@@ -298,7 +298,6 @@ Congratulations!  You know how to use Git and GitHub!
 ## Markdown
 
 Every README file is written in Markdown, hence the ```.md``` in ```README.md```.
-
 Markdown is pretty easy to learn.  You can mostly type normally.
 
 But for everyting else like headings, bold, italics, images, and tables, check out [GitHub's Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
