@@ -215,11 +215,9 @@ After you've made you account or signed in, you should see this page:
 <img src="images/github-home.png" width="1000">
 
 Click the ```+``` icon in the top-right corner of the screen and select ```New Repository```.
-The one thing you *must* do here is check the box that says ```Add a README file```.
+The one thing you *must* do here is check the box that says ```Add a README file```.  README files serve as documentation for what's in your repository.  It's good practice to always have a README file in your repository.  GitHub will automatically display the README file for you.
 
-**Always have a README file in your repository!**
-
-Aftet you've created your repository, your screen should look like this:
+After you've created your repository, your screen should look like this:
 
 <img src="images/test-repo.png" width="1000">
 
