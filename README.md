@@ -323,9 +323,9 @@ You can fork a copy of a repository from someone else's repository.
 
 For example, below is a screenshot of my professor's class repository that he had all his students fork using the ```Fork``` button circled in red.
 
-We do assignments in our forked copies, and make pull requests in his repo to submit our assignments.
+We do assignments in our forked copies, and make pull requests in his repository to submit our assignments.
 
-Unless you take his class, you probably won't need to make pull requests to the repository you forked from.
+Unless you take his class, you probably won't need to make pull requests.
 
 <img src="images/fork.png" width="1000">
 
@@ -339,7 +339,7 @@ I can fix that with a few commands:
 
 * ```git remote add upstream https://github.com/phonedude/cs595-s21.git```
   * I only had to do this command once, the first time I wanted to sync my copy with the professor's.
-These next 3 commands are all I need to do now:
+These next 3 commands are all I need to do now.
 * ```git fetch upstream```
 * ```git merge upstream/main```
 * ```git push origin main```
