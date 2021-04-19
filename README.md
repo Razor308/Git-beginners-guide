@@ -35,32 +35,32 @@ The command-line is just a text version of what you see in the file explorer.  C
 
 **For Mac Users:**
 
-Click the magnifying glass in the top-right of your screen and type ```terminal```.
+* Click the magnifying glass in the top-right of your screen and type ```terminal```.
 
-Click on ```Terminal.app```.
+* Click on ```Terminal.app```.
 
-This will bring up your terminal.
+* This will bring up your terminal.
 
 **Mac users must update their version of Git!**
 
-While Git comes pre-installed on Macs, it's most likely out-of-date.
+* While Git comes pre-installed on Macs, it's most likely out-of-date.
 
-To do this, paste this command into your terminal and press Enter: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+* To do this, paste this command into your terminal and press Enter: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
 
-This will install Homebrew.
+* This will install Homebrew.
 
-Now update Homebrew by typing ```brew update``` and press Enter.
+* Now update Homebrew by typing ```brew update``` and press Enter.
 
-Then type ```brew install git```.
+* Then type ```brew install git```.
 
-Check to make sure you have an up-to-date version of Git by typing ```git --version``` and pressing Enter.
+* Check to make sure you have an up-to-date version of Git by typing ```git --version``` and pressing Enter.
 
 The latest Git version at the time of writing is 2.31.1.
 
 **For Windows Users \(like me\):**
 
 While you *can* use your ```cmd``` or ```Powershell``` applications, you should avoid using them like the plague.
-This is because some commands differ between Windows and Mac.  Mac OS behaves more like Linux, a separate operationg system from Windows and Mac.
+This is because some commands differ between Windows and Mac.  Mac OS behaves more like Linux, a separate operating system from Windows and Mac.
 
 Believe me when I say, you want a more Linux-like experience.
 In order to get that, there are several options to choose from.
