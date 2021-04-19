@@ -246,7 +246,7 @@ Go back to Git Bash and ```cd``` into whatever directory you want to clone your 
 
 Then type ```git clone``` and paste your copied URL after ```clone```.
 
-Example ```git clone git@github.com:Razor308/Test-Repo.git```
+Example: ```git clone git@github.com:Razor308/Test-Repo.git```
 
 You should be prompted for your key passphrase, but then you're ready to make changes!
 
