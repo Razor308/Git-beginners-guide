@@ -276,7 +276,7 @@ Assuming you made ```test.txt``` and put some sample-text inside of it, we're go
 
 Starting with ```git status``` shows that ```test.txt``` is untracked and has to be added.
 
-<img src="status.png">
+<img src="images/status.png">
 
 Let's add the file with ```git add test.txt```
 
@@ -296,7 +296,7 @@ Now time to push our changes with ```git push origin main```
 
 Now go to your repository on GitHub and refresh the page.  You should see you new file.
 
-<img src="updated-remote.png" width="1000">
+<img src="images/updated-remote.png" width="1000">
 
 Try clicking on it!  You should see what you wrote.
 
@@ -310,7 +310,7 @@ You can make multiple brances of a repository using ```git branch```.
 
 Just ```cd``` into your local repository and execute the ```git branch``` command.
 
-For example:  I would ```cd``` into my repository and type ```git branch test-branch```
+For example:  I would ```cd``` into my repository and type ```git branch test-branch``` to make a branch called ```test-branch```.
 
 **Make sure you switch to your new branch!**
 
