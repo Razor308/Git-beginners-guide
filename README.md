@@ -98,9 +98,7 @@ There are a few more, like ```cp``` \(copy\), ```mv``` \(move\) and ```rm``` \(r
  
 ### Example Walkthrough
 I'll walk you through an example of the commands mentioned above.
- 
 We're going to navigate to the directory containing this file, the one you're currently reading, on the command-line.
-
 Where we're going is shown below in the Windows File Explorer.
 
 <img src="images/goal.png">
