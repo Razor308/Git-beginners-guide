@@ -280,7 +280,7 @@ Starting with ```git status``` shows that ```test.txt``` is untracked and has to
 
 Let's add the file with ```git add test.txt```
 
-And check the status again ```git status```.
+And check the status again with ```git status```.
 
 <img src="images/ready.png">
 
